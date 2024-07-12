@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS MCQs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .option span {
+            margin-left: 10px;
+        }
+        .correct::before {
+            content: '✔';
+            color: green;
+        }
+        .incorrect::before {
+            content: '✖';
+            color: red;
+        }
+
+        
+        .centered-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: blue;
+            text-align: center;
+        }
+        .module{
+            color: rgb(255, 0, 0);
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="centered-text">
+        <h1>Introduction to HTML and CSS</h1>
+    </div>
+    <h2 class="module">Module 1: Set up a web page with HTML</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>Shema would like to add a quote with a link to the quote’s author to her resume web page. What two elements would she need to use?</p>
+        <div class="option incorrect"><span>anchor <code>&lt;a&gt;&lt;/a&gt;</code> and link <code>&lt;/link&gt;</code></span></div>
+        <div class="option correct"><span>blockquote <code>&lt;blockquote&gt;&lt;/blockquote&gt;</code> and anchor <code>&lt;a&gt;&lt;/a&gt;</code></span></div>
+        <div class="option incorrect"><span>blockquote <code>&lt;blockquote&gt;&lt;/blockquote&gt;</code> and link <code>&lt;link&gt;&lt;/link&gt;</code></span></div>
+        <div class="option incorrect"><span>quote <code>&lt;quote&gt;&lt;/quote&gt;</code> and anchor <code>&lt;a&gt;&lt;/a&gt;</code></span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>Jay is creating a web page that contains a lot of information and data that might be difficult for visitors to his web page to read. He wants to break up the text into smaller sentences on new lines, so the text is easier to read. Which of the following elements should Jay use to separate lines of text in his web page?</p>
+        <div class="option correct"><span><code>&lt;br&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;h1&gt;&lt;/h1&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;span&gt;&lt;/span&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;a&gt;&lt;/a&gt;</code></span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>Arnold is creating a website and would like to add paragraphs. What code should Arnold use?</p>
+        <div class="option incorrect"><span><code>&lt;div&gt;&lt;paragraph&gt;1&lt;/p&gt;&lt;paragraph&gt;2&lt;/p&gt;&lt;paragraph&gt;3&lt;/p&gt;&lt;/div&gt;</code></span></div>
+        <div class="option correct"><span><code>&lt;div&gt;&lt;p&gt;paragraph 1&lt;/p&gt;&lt;p&gt;paragraph 2&lt;/p&gt;&lt;p&gt;paragraph 3&lt;/p&gt;&lt;/div&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;div&gt;&lt;paragraph&gt;1&lt;paragraph&gt;2&lt;paragraph&gt;3&lt;/div&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;div&gt;&lt;p&gt;p1&lt;p&gt;p2&lt;p&gt;p3&lt;/div&gt;</code></span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>True or false? Child elements can inherit style properties that apply to the parent element.</p>
+        <div class="option incorrect"><span>False</span></div>
+        <div class="option correct"><span>True</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>In a standard HTML document, the body element stands in what relationship to the HTML element?</p>
+        <div class="option incorrect"><span>Peer</span></div>
+        <div class="option correct"><span>Child</span></div>
+        <div class="option incorrect"><span>Parent</span></div>
+        <div class="option incorrect"><span>Head</span></div>
+    </div>
+
+    <h2 class="module">Module 2: Controlling Elements with Attributes</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>Toby is building a website for a startup. He would like to add some animation so that images appear as users move up and down the page. What event attribute would Toby add to his code?</p>
+        <div class="option incorrect"><span>onerror</span></div>
+        <div class="option incorrect"><span>onclick</span></div>
+        <div class="option correct"><span>onscroll</span></div>
+        <div class="option incorrect"><span>onkeypress</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>What is the correct way to make a Google link bold using attributes?</p>
+        <div class="option incorrect"><span><code>&lt;a href="www.google.com"&gt;Google&lt;/a&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;p&gt;&lt;style=bold&gt;Google&lt;/p&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;a style=bold&gt;&lt;href="www.google.com"&gt;Google&lt;/a&gt;</code></span></div>
+        <div class="option correct"><span><code>&lt;a style="font-weight:bold" href="www.google.com"&gt;Google&lt;/a&gt;</code></span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>Which of the following HTML attributes can you use to change the color of text on a web page?</p>
+        <div class="option incorrect"><span>Color attribute</span></div>
+        <div class="option correct"><span>Style attribute</span></div>
+        <div class="option incorrect"><span>Action attribute</span></div>
+        <div class="option incorrect"><span>Event attribute</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>Priyanka is writing code to create her own website for a school project. She wants to make some of her text bold and purple. What code is the correct code for Priyanka to use?</p>
+        <div class="option incorrect"><span><code>&lt;p style="color:purple;bold;"&gt;My favorite color is purple!&lt;/p&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;p style="color:purple:weight:bold"&gt;My favorite color is purple!&lt;/p&gt;</code></span></div>
+        <div class="option correct"><span><code>&lt;p style="color:purple; font-weight:bold;"&gt;My favorite color is purple!&lt;/p&gt;</code></span></div>
+        <div class="option incorrect"><span><code>&lt;p style=color:purple,bold&gt;My favorite color is purple!&lt;/p&gt;</code></span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>Which of the following attributes can you use to set the destination of a linked resource like a hyperlink?</p>
+        <div class="option incorrect"><span>autofocus</span></div>
+        <div class="option incorrect"><span>src</span></div>
+        <div class="option incorrect"><span>draggable</span></div>
+        <div class="option correct"><span>href</span></div>
+    </div>
+
+    <h2 class="module">Module 3: Organizing Code</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>Why is it important for web developers to organize their code?</p>
+        <div class="option incorrect"><span>Ensuring that the web pages are organized helps users find what they need and enjoy the time spent on the website.</span></div>
+        <div class="option incorrect"><span>Organizing information for users helps developers organize, write, document, and maintain their code.</span></div>
+        <div class="option incorrect"><span>Using code style conventions helps developers note the difference between naming conventions of functions.</span></div>
+        <div class="option correct"><span>Organizing code in web pages helps make the web documents easier to scan and navigate.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>Where does a web developer add a custom font and metadata in an HTML document?</p>
+        <div class="option incorrect"><span>After the body section</span></div>
+        <div class="option incorrect"><span>Before the &lt;html&gt; opening tag</span></div>
+        <div class="option incorrect"><span>In the body section</span></div>
+        <div class="option correct"><span>In the head section</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>Which of the following is a correct statement about semantic elements? Select all that apply.</p>
+        <div class="option incorrect"><span>They specify how to write code objects to use as conventions on a web development team.</span></div>
+        <div class="option correct"><span>They are self-describing elements to organize sections of an HTML document.</span></div>
+        <div class="option correct"><span>&lt;nav&gt; is a semantic element for a section of navigational elements.</span></div>
+        <div class="option incorrect"><span>&lt;casing&gt; is a semantic element to combine multiple words without spaces.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>Javier and his team are working on a large web development project for a new beverage company. They have adopted a code style convention and are frequently commenting on their code. What benefits can the team expect when organizing their code this way? Select all that apply.</p>
+        <div class="option incorrect"><span>Information can be searched easily.</span></div>
+        <div class="option correct"><span>The code is easier to find.</span></div>
+        <div class="option correct"><span>It makes collaboration easier.</span></div>
+        <div class="option incorrect"><span>The code loads faster.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>Ben is creating a website for a school project. He has a section in his design where he wants to succinctly describe a process so that his users can easily follow along. Which HTML element should he use?</p>
+        <div class="option incorrect"><span>A font</span></div>
+        <div class="option correct"><span>A list</span></div>
+        <div class="option incorrect"><span>A chart</span></div>
+        <div class="option incorrect"><span>A table</span></div>
+    </div>
+
+    <h2 class="module">Module 4: Coding with Style - Using CSS</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>Which of the following statements defines CSS?</p>
+        <div class="option incorrect"><span>A language that can apply style to an element using a limited number of styles</span></div>
+        <div class="option incorrect"><span>A markup language used instead of HTML to present and display a collection of styles</span></div>
+        <div class="option correct"><span>A language to describe the style, layout, and presentation of web documents</span></div>
+        <div class="option incorrect"><span>A method of determining the different styles that web developers want for rooms and for websites</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>John is developing a web page and has assigned Emilia to write the CSS stylesheet. Emilia has created a selector called #image-title in the stylesheet. How should John reference this selector in his HTML elements?</p>
+        <div class="option incorrect"><span>class=“image-title”</span></div>
+        <div class="option incorrect"><span>href=“image-title”</span></div>
+        <div class="option incorrect"><span>style=“image-title”</span></div>
+        <div class="option correct"><span>id=“image-title”</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>Ahmad is developing the layout of a web page. He notices that some child paragraph elements are bold, just like their parent paragraph element, even though he didn’t apply a style to the children paragraph elements. He did apply a bold style to the parent paragraph elements. Why are the children paragraph elements bold like the parent paragraph elements?</p>
+        <div class="option incorrect"><span>The children element’s style was overridden by the parent.</span></div>
+        <div class="option incorrect"><span>All paragraph elements are bold by default.</span></div>
+        <div class="option incorrect"><span>He used an internal stylesheet instead of an external stylesheet.</span></div>
+        <div class="option correct"><span>The children inherit the bold style from their parent.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>A web development team is creating a new website. Each teammate is assigned to develop a specific page for the site. What is the best method to ensure that all pages follow the same style?</p>
+        <div class="option incorrect"><span>All teammates should use a simple style on their individual page.</span></div>
+        <div class="option correct"><span>All teammates should link to a common external stylesheet from their individual page.</span></div>
+        <div class="option incorrect"><span>One teammate should check and change each style individually.</span></div>
+        <div class="option incorrect"><span>All teammates should override child element styles with parent element styles.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>Which of the following code snippets correctly uses an element selector to apply a style to an HTML element?</p>
+        <div class="option incorrect"><span>.p {color:red;}</span></div>
+        <div class="option incorrect"><span>#p {color:red;}</span></div>
+        <div class="option correct"><span>p {color:red;}</span></div>
+        <div class="option incorrect"><span>.#p {color:red;}</span></div>
+    </div>
+
+    <h2 class="module">Module 5: CSS Box Model</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>What are the main steps web developers use to set the width and height of an element? Select all that apply.</p>
+        <div class="option correct"><span>Create an id selector in the CSS stylesheet.</span></div>
+        <div class="option correct"><span>Apply the style to the div element in the HTML file.</span></div>
+        <div class="option correct"><span>Set the width and height to the desired sizes.</span></div>
+        <div class="option incorrect"><span>Use a size element to define the width and height.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>Fill in the blank. Sonia is creating a CSS box for a new website. She will use the ____ component to set the distance from the inside border of the box to the content items it contains.</p>
+        <div class="option incorrect"><span>height</span></div>
+        <div class="option correct"><span>padding</span></div>
+        <div class="option incorrect"><span>margin</span></div>
+        <div class="option incorrect"><span>width</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>Which of the following advantages is a benefit of using the CSS box model?</p>
+        <div class="option incorrect"><span>Users can enlarge text in a layout that uses the CSS box model more easily than they can on web pages that did not use the CSS box model.</span></div>
+        <div class="option incorrect"><span>The CSS box model supports changing from high contrast mode to black-and-white mode easily.</span></div>
+        <div class="option correct"><span>The CSS box model can help developers make web pages more accessible for differently abled users.</span></div>
+        <div class="option incorrect"><span>The CSS box model works best with touch screens and allows users to manually adjust screen size.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>If a web developer uses the CSS box model to set a web page height as 900px and the width as 100%, what conclusions can you make? Select all that apply.</p>
+        <div class="option correct"><span>The height is static, so it’s set and will not change if a user views the web page on a larger or smaller screen.</span></div>
+        <div class="option incorrect"><span>The height is dynamic, so it will automatically adjust if a user views the web page on a larger or smaller screen.</span></div>
+        <div class="option correct"><span>The width is dynamic, so it will automatically adjust if a user views the web page on a larger or smaller screen.</span></div>
+        <div class="option incorrect"><span>The width is static, so it’s set and will not change if a user views the web page on a larger or smaller screen.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>The CSS box model gives web developers various options for laying out web page content. What benefits can web developers expect when they use the CSS box model to develop web content?</p>
+        <div class="option correct"><span>Websites are responsive.</span></div>
+        <div class="option correct"><span>Websites are customizable.</span></div>
+        <div class="option incorrect"><span>Websites are accessible.</span></div>
+        <div class="option incorrect"><span>Websites are static.</span></div>
+    </div>
+
+
+    <h2 class="module">Module 6: Best Practices for Writing HTML and CSS</h2>
+
+    <div class="question">
+        <p><strong>01/05</strong></p>
+        <p>What is the best practice to follow to include CSS style attributes when developing a web page?</p>
+        <div class="option incorrect"><span>Linking an HTML file to a CSS file.</span></div>
+        <div class="option incorrect"><span>Writing CSS attributes in the header section.</span></div>
+        <div class="option incorrect"><span>Writing CSS attributes inline.</span></div>
+        <div class="option correct"><span>Linking to an external CSS file.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>02/05</strong></p>
+        <p>Why is it a best practice for web developers to set a proper doctype declaration at the beginning of an HTML document?</p>
+        <div class="option incorrect"><span>Doctype informs users of which version of the browser they need for the page.</span></div>
+        <div class="option incorrect"><span>HTML is not self-describing, so other developers might not understand the syntax.</span></div>
+        <div class="option incorrect"><span>Search engines require a doctype declaration before they will index a document.</span></div>
+        <div class="option correct"><span>Browsers need to be informed of the version of the document to read.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>03/05</strong></p>
+        <p>An organization you volunteer with has updated their name. They want to update their website with their new logo, color, and font. Many pages on their website have internal CSS stylesheets. What is the best approach you can recommend to implement this update?</p>
+        <div class="option incorrect"><span>Create inline styles for the pages.</span></div>
+        <div class="option incorrect"><span>Use only class selectors for all styles.</span></div>
+        <div class="option correct"><span>Move the styles to an external stylesheet.</span></div>
+        <div class="option incorrect"><span>Use only id selectors for all styles.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>04/05</strong></p>
+        <p>Jan recently began a job at a startup company as a web developer. Jan’s manager reviewed his code and noticed that he often forgets to use closing tags. What feature of the company’s IDE could the manager recommend to Jan?</p>
+        <div class="option incorrect"><span>The autosave feature to save Jan‘s work regularly.</span></div>
+        <div class="option incorrect"><span>The code editor feature to use colors to show Jan syntax structure.</span></div>
+        <div class="option correct"><span>The intelligent code completion feature to automatically create closing tags when Jan creates opening tags.</span></div>
+        <div class="option incorrect"><span>The cross-compatible browser feature to automatically create closing tags when Jan creates opening tags.</span></div>
+    </div>
+
+    <div class="question">
+        <p><strong>05/05</strong></p>
+        <p>Which code would you use for the doctype declaration at the top of an HTML5 file?</p>
+        <div class="option incorrect"><span>&lt;!TYPE html&gt;</span></div>
+        <div class="option incorrect"><span>&lt;!DOCTYPE HTML PUBLIC&gt;</span></div>
+        <div class="option incorrect"><span>&lt;!HTML&gt;</span></div>
+        <div class="option correct"><span>&lt;!DOCTYPE html&gt;</span></div>
+    </div>
+
+</body>
+</html>
